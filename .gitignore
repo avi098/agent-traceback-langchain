@@ -21,6 +21,7 @@ build/
 # Logs
 *.log
 agent_logs_*.log
+agent_traces_*.json
 
 # IDEs and editors
 .vscode/
