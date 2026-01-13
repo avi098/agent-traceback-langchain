@@ -1,15 +1,19 @@
-# FastAPI and server
+# AWS SDK
+boto3==1.35.81
+botocore>=1.34.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# FastAPI and server (for API mode)
 fastapi==0.115.5
 uvicorn[standard]==0.34.0
 
 # Data validation
 pydantic==2.10.3
 
-# AWS SDK
-boto3==1.35.81
-
-# Environment variables
-python-dotenv==1.0.1
-
 # HTTP client (optional, for testing)
 httpx==0.28.1
+
+# Note: No Pinecone SDK needed!
+# AWS Bedrock handles Pinecone access automatically via Secrets Manager
