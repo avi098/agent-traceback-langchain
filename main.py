@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-AWS Bedrock Agent Client with Knowledge Base Support
-Captures complete traces with workflow-style logging
-"""
-
 import boto3
 import json
 import os
